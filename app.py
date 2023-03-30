@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 
 # loading the trained model
-pickle_in = open('C:/Users/House Computer/Desktop/Indian-Liver-Patients-master/Indian-Liver-Patients-master/classifier.pkl', 'rb')
+pickle_in = open('classifier.pkl', 'rb')
 classifier = pickle.load(pickle_in)
 
 
